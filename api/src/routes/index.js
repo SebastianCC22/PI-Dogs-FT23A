@@ -12,8 +12,8 @@ const routeTemperament = require('./Temperament')
 // Configurar los routers
 // Ejemplo: router.use('/auth', authRouter);
 
-router.use("/dog", routeDog)
 router.use("/dogs", routeDogs)
 router.use("/temperament", routeTemperament)
+router.use("/dog", routeDog)
 
 module.exports = router;
