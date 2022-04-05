@@ -13,6 +13,7 @@ const loadTemperaments = async() => {
             temperaments = temperaments.concat(res)
         }
     });
+    
     temperaments = Array.from(new Set(temperaments)).sort()
     //El set permite almacenar valores únicos de cualquier tipo
     //Array.from crea una nueva instancia de array a partir de un objeto iterable

@@ -4,7 +4,6 @@ const { Router } = require('express');
 const router = Router();
 const { Dog, Temperament } = require('../db.js');
 require("dotenv").config();
-const { Sequalize, UUID } = require('sequelize');
 const { v4: uuidv4 } = require('uuid');
 
 //Recibimos los datos recolectados por el formulario.

@@ -3,7 +3,6 @@ const router = Router();
 const { Dog, Temperament } = require("../db.js")
 require("dotenv").config();
 const { API_KEY, API } = process.env;
-const { Sequelize, Op } = require("sequelize");
 const axios = require("axios");
 
 
