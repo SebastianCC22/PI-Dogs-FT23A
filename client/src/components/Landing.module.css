@@ -1,0 +1,40 @@
+
+
+
+.background {
+    background-image: url("../img/background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 420px;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+
+.button {
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    width: 80px;
+    height: 50px;
+    position: relative;
+    margin-left: 275px;
+    background-color: white;
+    border-color: transparent;
+    border-radius: 10px;
+    color: black;
+}
+
+.button:hover {
+    background-color: rgba(6, 106, 236, 0.509);
+    color: black;
+}
+
+
+.background ::-webkit-scrollbar {
+    display: none;
+}
