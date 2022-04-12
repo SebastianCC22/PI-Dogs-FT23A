@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.background {
+    background-image: url("https://cdn.pixabay.com/photo/2016/02/26/16/32/bulldog-1224267_960_720.jpg");
+    background-size: cover;
+    padding: 5px;
+}
+.text {
+    padding: 10px;
+    font-size: 25px;
+    color: #2C3E50;
+    text-transform: uppercase;
+    font-weight: 1000;
+    font-family: "Montserrat";
+   
+}
+.text2 {
+    font-size: 20px;
+    color: #2C3E50;
+    font-family: "Montserrat";
+}
+.back {
+    background-color: rgb(255, 230, 0);
+    background-attachment: scroll;
+    
+}
+.contenedor {
+    margin-top: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 450px;
+    align-items: center; 
+    text-align: center;
+    display: inline-block;
+    background-color: rgba(6, 106, 236, 0.509);
+    border-radius: 5%;
+    padding-left: 5px;
+    padding-right: 10px;
+    justify-content:center;
+    margin-left: 105px;
+}
+
+.contenedor:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 10px rgb(17, 17, 17);
+}
+
+.image {
+    height: 200px;
+    width: 200px;
+    border-color: black;
+    border-radius: 20%;
+    justify-content: center;
+}
+
+.direccion {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    padding: 10px;
+}
+
+.pagination {
+    list-style: none;
+    display: flex;
+    margin-left: 35%;
+}
+  
+.pagination li {
+    padding: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 10%;
+}
+  
+.pagination li:hover {
+    background-color: rgba(6, 106, 236, 0.509);
+    color: black;
+    transform: scale(1.10);
+    box-shadow: 0 5px 10px rgb(196, 192, 192);
+
+}
+
+
+  
